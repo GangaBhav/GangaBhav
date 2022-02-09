@@ -1,0 +1,20 @@
+- 👋 Hi, I’m @GangaBhav
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+GangaBhav/GangaBhav is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+Print("enter two number :")
+num one=int(input ())
+num two =int (input())
+if num one >num two:
+Print ("\n largest number =", num one)
+else:
+print("\n largest number=", num two)
+Output :
+Enter a number 7
+This is an odd number 
