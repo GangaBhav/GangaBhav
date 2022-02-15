@@ -1,0 +1,23 @@
+- 👋 Hi, I’m @GangaBhav
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+GangaBhav/GangaBhav is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+a=int(input('Enter a value'))
+b=int(input('Enter b value'))
+print(a+b);
+print(a-b);
+print(a*b);
+Output :
+Enter a value6
+Enter b value7
+13
+-1
+42
+
+[Program finished]
