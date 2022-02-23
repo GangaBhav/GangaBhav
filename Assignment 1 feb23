@@ -1,0 +1,33 @@
+- 👋 Hi, I’m @GangaBhav
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+GangaBhav/GangaBhav is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+# program to print minimum and maximum elements of a list
+l=[]
+n=int(input("Enter n:"))
+for i in range(0,n):
+    x=int(input())
+    l.append(x)
+min=l[0]   
+max=l[0]
+for i in range(1,n):
+    if l[i]>max:
+        max=l[i]
+    else:
+        min=l[i]
+print("maximum element is: ",max)
+print("minumum element is: ",min)
+Enter n:3
+6
+6
+8
+maximum element is:  8
+minumum element is:  6
+
+[Program finished]
