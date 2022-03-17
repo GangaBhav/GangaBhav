@@ -1,0 +1,23 @@
+- 👋 Hi, I’m @GangaBhav
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+GangaBhav/GangaBhav is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+def Remove(duplicate):
+    final_list = []
+    for num in duplicate:
+        if num not in final_list:
+            final_list.append(num)
+    return final_list
+     
+duplicate = [1,2,3,1,2,3,3,5,5,3]
+print(Remove(duplicate))
+
+OUTPUT::
+
+[ 1, 2, 3, 5]
